@@ -42,6 +42,7 @@
 		  </div>
 		  <div class="container">
 			  <h2>Pour ne rien manquer</h2>
+			  <form action="" method="post">
 			  <div class="row">
 			  <div class="col-8">
 				<h3>Informations personnelles</h3>
@@ -56,10 +57,10 @@
 					</tr>
 					<tr>
 						<td>
-							Groupe d'Âge: <select name="age_group" >
+							Groupe d'Âge: <select name="age_group" required>
 								<option value="18">18-24 ans</option>
 								<option value="25">25-34 ans</option>
-								<option value="35" selected>35-44 ans</option>
+								<option value="35" >35-44 ans</option>
 								<option value="45">45-54 ans</option>
 								<option value="55">55-64 ans</option>
 								<option value="65"> 65 ans et +</option>
@@ -68,7 +69,7 @@
 					</tr>
 					<tr>
 						<td>
-							Sexe:<input type="radio" name="sexe" value="Femme">Femme
+							Sexe:<input type="radio" name="sexe" value="Femme" required>Femme
 							<input type="radio" name="sexe" value="Homme">Homme
 							<input type="radio" name="sexe" value="Autre">Autre
 						</td>
@@ -82,7 +83,9 @@
 						</td>
 					</tr>
 					<tr>
-						<td></td>
+						<td>
+							Courriel: <input type="text" name="courriel" size="20" maxlength="30" placeholder="courriel@adresse.com" required>
+						</td>
 					</tr>
 				</table>
 			  </div>
@@ -109,16 +112,50 @@
 			  </div>
 			</div>
 			<div class="row">
-			  <div class="col">
+			  <div class="col-8">
 				<h3>Informations professionelles</h3>
 				<table>
-
+					<tr>
+						<td>
+							Entreprise ou école: <input type="text" size="37" maxlength="70" name="workingplace" placeholder="SFPI" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Poste occupé ou niveau d'étude actuel: <input type="text" name="poste" size="20" maxlength="50" placeholder="Comptable" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Secteur d'activité ou programme d'étude: <input type="text" name="secteur" size="18" maxlength="50" placeholder="Assurances" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="Soumettre">
+						</td>
+						<td>
+							<input type="reset" value="Réinitialiser">
+						</td>
+					</tr>
 				</table>
 			  </div>
 			  <div class="col">
-				<img src="" alt="">
+				<img src="../../image/inscription.jpg" alt="Cochon et maison" width="400">
 			  </div>
+			</form>
 			</div>
 		  </div>
+		<div class="container">
+		  <div class="row">
+			<div class="col">
+			SFPI
+			</div>
+			<div class="col">
+			sfpi@contact.ca<br>
+			580-555-5757
+			</div>
+		</div>
+	</div>
 	</body>
 </html>
