@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<title>Inscription</title>
 	</head>
 	<body>
@@ -36,6 +37,86 @@
 			  </div>
 			  <div class="col">
 				Contact
+			  </div>
+			</div>
+		  </div>
+		  <div class="container">
+			  <h2>Pour ne rien manquer</h2>
+			  <div class="row">
+			  <div class="col-8">
+				<h3>Informations personnelles</h3>
+				<table>
+					<tr>
+						<td>
+							Prénom: <input type="text" name="prenom" size="20" maxlength="30" required placeholder="Guy"/>
+						</td>
+						<td>
+							Nom: <input type="text" name="nom" size="20" maxlength="30" required placeholder="Tremblay"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Groupe d'Âge: <select name="age_group" >
+								<option value="18">18-24 ans</option>
+								<option value="25">25-34 ans</option>
+								<option value="35" selected>35-44 ans</option>
+								<option value="45">45-54 ans</option>
+								<option value="55">55-64 ans</option>
+								<option value="65"> 65 ans et +</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Sexe:<input type="radio" name="sexe" value="Femme">Femme
+							<input type="radio" name="sexe" value="Homme">Homme
+							<input type="radio" name="sexe" value="Autre">Autre
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Adresse: <input type="text" name="adresse" size="20" maxlength="100" placeholder="1 rue des Ormeaux" required>
+						</td>
+						<td>
+							Code postal: <input type="text" name="postal_code" size="20" maxlength="7" placeholder="A0B 1C4" required>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+					</tr>
+				</table>
+			  </div>
+			  <div class="col">
+				<h3>Billet</h3>
+				<table>
+					<tr>
+						<td>Régulier</td>
+						<td>Étudiant</td>
+					</tr>
+					<tr>
+						<td><br>Samedi - 50$</td>
+						<td><br>Samedi - 40$</td>
+					</tr>
+					<tr>
+						<td>Dimanche - 50$</td>
+						<td>Dimanche - 40$</td>
+					</tr>
+					<tr>
+						<td>Passeport - 85$</td>
+						<td>Passeport - 65$</td>
+					</tr>
+				</table>
+			  </div>
+			</div>
+			<div class="row">
+			  <div class="col">
+				<h3>Informations professionelles</h3>
+				<table>
+
+				</table>
+			  </div>
+			  <div class="col">
+				<img src="" alt="">
 			  </div>
 			</div>
 		  </div>
