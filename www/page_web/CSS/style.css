@@ -10,6 +10,7 @@ button {height : 40px; width: 175px; font-size : 18px; font-family: Arial; color
 #resetbutton{height : 40px; width: 175px; font-size : 18px; font-family: Arial; color:#F7875D; background-color:#FFDDD2; border-color: #FFDDD2;}
 #navbar {color:#006D77; background-color:#83C5BE; font-size: 20px; text-align:center; font-family: Arial;}
 #selected {color:#83C5BE; background-color:#006D77; border-style: solid; border-color: #006D77;}
+#notselected {color:#006D77; background-color:#83C5BE;}
 #sfpi {text-align: left; font-weight: bold;}
 #contact {text-align: right;}
 .col-sm {border-style:solid}
