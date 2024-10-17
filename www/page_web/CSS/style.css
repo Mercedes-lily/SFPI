@@ -19,5 +19,16 @@ barre en base*/
 select {}
 input {}
 iframe {}
-label {}
+.stitre {font-style : bold;}
+label {font-size: 18px; font-family: Arial;}
 body {background-image: url("../../image/background.png"); background-size: cover; background-repeat: no-repeat;}
+#message { width: 100%; height: max-content;
+    /*width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 4px solid #006D776;
+    border-radius: 4px;
+    font-size: 18px;
+    resize: none;
+    */}
