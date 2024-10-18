@@ -4,6 +4,12 @@ h1 {
     font-family: Arial;
 }
 
+h4 {
+    font-size:px;
+    text-align:center;
+    font-family: Arial;
+}
+
 p {
     font-size: 18px;
     text-align:justify;
@@ -128,3 +134,29 @@ body {
     font-size: 20px;
 }
 
+table {
+}
+
+#horaireSFPI {
+    border-style: solid;
+    border-color: black;
+}
+
+#tableHeader{
+    border-style: solid;
+    background-color: #006D77;
+    border-color: black;
+}
+.tableColOdd{
+    border-style: solid;
+    background-color: #83C5BE;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.tableColEven{
+    border-style: solid;
+    border-color: black;
+    background-color: #EDF6F9;
+}
