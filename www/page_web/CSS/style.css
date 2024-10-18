@@ -96,6 +96,11 @@ select {
 }
 input {
 
+    font-size: 18px;
+    border-radius: 8px;
+    border-color: #006D77;
+    border-style: solid;
+    border-width: 2px;
 }
 
 label {
@@ -122,3 +127,4 @@ body {
 .contactTitle {
     font-size: 20px;
 }
+
