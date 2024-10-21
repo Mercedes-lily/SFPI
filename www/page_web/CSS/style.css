@@ -1,31 +1,31 @@
 h1 {
-    font-size:250%;
-    text-align:center;
-    font-family: Arial;
+	font-size: 250%;
+	text-align: center;
+	font-family: Arial;
 }
 
 h4 {
-    font-size:px;
-    text-align:center;
-    font-family: Arial;
+	font-size: px;
+	text-align: center;
+	font-family: Arial;
 }
 
 p {
-    font-size: 18px;
-    text-align:justify;
-    font-family: Arial;
+	font-size: 18px;
+	text-align: justify;
+	font-family: Arial;
 }
 
 h2 {
-    font-size:150%;
-    text-align:center;
-    font-family: Arial;
+	font-size: 150%;
+	text-align: center;
+	font-family: Arial;
 }
 
 h3 {
-    font-size:125%;
-    text-align:center;
-    font-family: Arial;
+	font-size: 125%;
+	text-align: center;
+	font-family: Arial;
 }
 
 /* table {}
@@ -33,130 +33,137 @@ td {}
 image {} */
 
 button {
-    height : 40px;
-    width: 175px;
-    font-size : 18px;
-    font-family: Arial;
-    color:#F7875D;
-    background-color:#FFDDD2;
-    border-color: #FFDDD2;
-    border-radius: 10px
+	height: 40px;
+	width: 175px;
+	font-size: 18px;
+	font-family: Arial;
+	color: #F7875D;
+	background-color: #FFDDD2;
+	border-color: #FFDDD2;
+	border-radius: 10px
 }
 
-#submitbutton{
-    height : 40px;
-    width: 175px;
-    font-size : 18px;
-    font-family: Arial;
-    color:#F7875D;
-    background-color:#FFDDD2;
-    border-color: #FFDDD2;
+#submitbutton {
+	height: 40px;
+	width: 175px;
+	font-size: 18px;
+	font-family: Arial;
+	color: #F7875D;
+	background-color: #FFDDD2;
+	border-color: #FFDDD2;
 }
 
-#resetbutton{
-    height : 40px;
-    width: 175px;
-    font-size : 18px;
-    font-family: Arial;
-    color:#F7875D;
-    background-color:#FFDDD2;
-    border-color: #FFDDD2;
+#resetbutton {
+	height: 40px;
+	width: 175px;
+	font-size: 18px;
+	font-family: Arial;
+	color: #F7875D;
+	background-color: #FFDDD2;
+	border-color: #FFDDD2;
 }
 
 #navbar {
-    color:#006D77;
-    background-color:#83C5BE;
-    font-size: 20px;
-    text-align:center;
-    font-family: Arial;
+	color: #006D77;
+	background-color: #83C5BE;
+	font-size: 20px;
+	text-align: center;
+	font-family: Arial;
 }
 
-    #selected {
-    color:#83C5BE;
-    background-color:#006D77;
-    border-style: solid;
-    border-color: #006D77;
+#selected {
+	color: #83C5BE;
+	background-color: #006D77;
+	border-style: solid;
+	border-color: #006D77;
 }
 
 #notselected {
-    color:#006D77;
-    background-color:#83C5BE;
+	color: #006D77;
+	background-color: #83C5BE;
 }
 
 #sfpi {
-    text-align: left;
-    font-weight: bold;
+	text-align: left;
+	font-weight: bold;
 }
 
 #contact {
-    text-align: right;
+	text-align: right;
 }
 
 .col-sm {
-    border-style:solid
+	border-style: solid
 }
 
-select {
+select {}
 
-
-}
 input {
 
-    font-size: 18px;
-    border-radius: 8px;
-    border-color: #006D77;
-    border-style: solid;
-    border-width: 2px;
+	font-size: 18px;
+	border-radius: 8px;
+	border-color: #006D77;
+	border-style: solid;
+	border-width: 2px;
 }
 
 label {
-    font-size: 18px;
-    font-family: Arial;
+	font-size: 18px;
+	font-family: Arial;
 }
 
 body {
-    background-image: url("../../image/background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("../../image/background.png");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #message {
-    width: 100%;
-    height: 150px;
-    font-size: 18px;
-    border-radius: 15px;
-    border-color: #006D77;
-    border-style: solid;
-    border-width: 3px;
+	width: 100%;
+	height: 150px;
+	font-size: 18px;
+	border-radius: 15px;
+	border-color: #006D77;
+	border-style: solid;
+	border-width: 3px;
 }
 
 .contactTitle {
-    font-size: 20px;
+	font-size: 20px;
 }
 
-table {
-}
+table {}
 
 #horaireSFPI {
-    border-style: solid;
-    border-color: black;
+	border-style: solid;
+	border-color: black;
 }
 
-#tableHeader{
-    border-style: solid;
-    background-color: #006D77;
-    border-color: black;
-}
-.tableColOdd{
-    border-style: solid;
-    background-color: #83C5BE;
-    border-color: black;
-    border-width: 2px;
-    
+#tableHeader {
+	border-style: solid;
+	background-color: #006D77;
+	border-color: black;
 }
 
-.tableColEven{
-    border-style: solid;
-    border-color: black;
-    background-color: #EDF6F9;
+.tableColOdd {
+	border-style: solid;
+	background-color: #83C5BE;
+	border-color: black;
+	border-width: 2px;
+
+}
+
+.tableColEven {
+	border-style: solid;
+	border-color: black;
+	background-color: #EDF6F9;
+}
+
+.banniere{
+	width: 100%;
+	height: 200px;
+	background-image: url("../../image/mains.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
