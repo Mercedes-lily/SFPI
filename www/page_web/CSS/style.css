@@ -5,7 +5,6 @@ h1 {
 }
 
 h4 {
-	font-size: px;
 	text-align: center;
 	font-family: Arial;
 }
@@ -28,9 +27,33 @@ h3 {
 	font-family: Arial;
 }
 
-/* table {}
-td {}
-image {} */
+#tableBillet {
+	background-color: #006D77;
+	border-color: #006D77;
+	border-radius: 50px;
+	color: white;
+	padding: 30px;
+}
+
+#labelBillet{
+	text-align: left;
+	font-size: 125%;
+	text-decoration: underline;
+}
+
+.billetLeftCol{
+	text-align: left;
+	width: 200px;
+}
+
+.billetRightCol{
+	text-align: left;
+}
+
+#billetCategorie{
+	text-align: left;
+	font-weight: bold;
+}
 
 button {
 	height: 40px;
@@ -51,6 +74,8 @@ button {
 	color: #F7875D;
 	background-color: #FFDDD2;
 	border-color: #FFDDD2;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px black;
 }
 
 #resetbutton {
@@ -61,6 +86,8 @@ button {
 	color: #F7875D;
 	background-color: #FFDDD2;
 	border-color: #FFDDD2;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px black;
 }
 
 #navbar {
@@ -96,9 +123,7 @@ button {
 	border-style: solid
 }
 
-select {}
-
-input {
+input:hover {
 
 	font-size: 18px;
 	border-radius: 8px;
@@ -110,6 +135,10 @@ input {
 label {
 	font-size: 18px;
 	font-family: Arial;
+}
+
+.boutonRetour {
+	text-align: center;
 }
 
 body {
@@ -131,8 +160,6 @@ body {
 .contactTitle {
 	font-size: 20px;
 }
-
-table {}
 
 #horaireSFPI {
 	border-style: solid;

@@ -44,17 +44,17 @@
 			</div>
 		  <div class="container">
 			  <h2>Pour ne rien manquer</h2>
-			  <form action="" method="post">
+			  <form action="ReceptionCommentaire.html" method="get">
 			  <div class="row">
 			  <div class="col-8">
 				<h3>Informations personnelles</h3>
 				<table>
 					<tr>
 						<td>
-							<label>Prénom: </label><input type="text" name="prenom" size="20" maxlength="30" required placeholder="Guy"/>
+							<label>Prénom: </label><input type="text" name="prenom" size="20" maxlength="30" required placeholder="Guy"/><br><br>
 						</td>
 						<td>
-							<label>Nom: </label><input type="text" name="nom" size="20" maxlength="30" required placeholder="Tremblay"/>
+							<label>Nom: </label><input type="text" name="nom" size="20" maxlength="30" required placeholder="Tremblay"/><br><br>
 						</td>
 					</tr>
 					<tr>
@@ -66,49 +66,53 @@
 								<option value="45">45-54 ans</option>
 								<option value="55">55-64 ans</option>
 								<option value="65"> 65 ans et +</option>
-							</select>
+							</select><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
 							<label>Sexe: </label><input type="radio" name="sexe" value="Femme" required><label>Femme</label>
 							<input type="radio" name="sexe" value="Homme"><label>Homme</label>
-							<input type="radio" name="sexe" value="Autre"><label>Autre</label>
+							<input type="radio" name="sexe" value="Autre"><label>Autre</label><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Adresse: </label><input type="text" name="adresse" size="20" maxlength="100" placeholder="1 rue des Ormeaux" required>
+							<label>Adresse: </label><input type="text" name="adresse" size="20" maxlength="100" placeholder="1 rue des Ormeaux" required><br><br>
 						</td>
 						<td>
-							<label>Code postal: </label><input type="text" name="postal_code" size="20" maxlength="7" placeholder="A0B 1C4" required>
+							<label>Code postal: </label><input type="text" name="postal_code" size="20" maxlength="7" placeholder="A0B 1C4" required><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Courriel: </label> <input type="email" name="courriel" size="20" maxlength="30" placeholder="courriel@adresse.com" required>
+							<label>Courriel: </label> <input type="email" name="courriel" size="20" maxlength="30" placeholder="courriel@adresse.com" required><br><br>
 						</td>
 					</tr>
 				</table>
 			  </div>
 			  <div class="col">
-				<h3>Billet</h3>
-				<table>
-					<tr>
-						<td><label>Régulier</label></td>
-						<td><label>Étudiant</label></td>
+				  <table id="tableBillet">
+					  <tr>
+						  <td>
+							<label id="labelBillet">Billet</label>
+						</td>
 					</tr>
 					<tr>
-						<td><br><label>Samedi - 50$</label></td>
-						<td><br><label>Samedi - 40$</label></td>
+						<td id="billetCategorie"><label id="billetCategorie">Régulier</label></td>
+						<td id="billetCategorie"><label id="billetCategorie">Étudiant</label></td>
 					</tr>
 					<tr>
-						<td><label>Dimanche - 50$</label></td>
-						<td><label>Dimanche - 40$</label></td>
+						<td class="billetLeftCol"><label>Samedi - 50$</label></td>
+						<td class="billetRightCol"><label>Samedi - 40$</label></td>
 					</tr>
 					<tr>
-						<td><label>Passeport - 85$</label></td>
-						<td><label>Passeport - 65$</label></td>
+						<td class="billetLeftCol"><label>Dimanche - 50$</label></td>
+						<td class="billetRightCol"><label>Dimanche - 40$</label></td>
+					</tr>
+					<tr>
+						<td class="billetLeftCol"><label>Passeport - 85$</label></td>
+						<td class="billetRightCol"><label>Passeport - 65$</label></td>
 					</tr>
 				</table>
 			  </div>
@@ -119,17 +123,17 @@
 				<table>
 					<tr>
 						<td>
-							 <label>Entreprise ou école: </label><input type="text" size="37" maxlength="70" name="workingplace" placeholder="SFPI" required>
+							 <label>Entreprise ou école: </label><input type="text" size="37" maxlength="70" name="workingplace" placeholder="SFPI" required><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							 <label>Poste occupé ou niveau d'étude actuel: </label> <input type="text" name="poste" size="20" maxlength="50" placeholder="Comptable" required>
+							 <label>Poste occupé ou niveau d'étude actuel: </label> <input type="text" name="poste" size="20" maxlength="50" placeholder="Comptable" required><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Secteur d'activité ou programme d'étude: </label> <input type="text" name="secteur" size="18" maxlength="50" placeholder="Assurances" required>
+							<label>Secteur d'activité ou programme d'étude: </label> <input type="text" name="secteur" size="18" maxlength="50" placeholder="Assurances" required><br><br>
 						</td>
 					</tr>
 					<tr>
@@ -137,7 +141,7 @@
 							<input id="submitbutton" type="submit" value="Soumettre">
 						</td>
 						<td>
-							<input id="resetbutton"type="reset" value="Réinitialiser">
+							<input id="resetbutton" type="reset" value="Réinitialiser">
 						</td>
 					</tr>
 				</table>
