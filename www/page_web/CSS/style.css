@@ -162,17 +162,17 @@ body {
 	font-size: 20px;
 }
 
-table {}
-
 #horaireSFPI {
 	border-style: solid;
 	border-color: black;
+    border-collapse: collapse;
 }
 
 #tableHeader {
 	border-style: solid;
 	background-color: #006D77;
 	border-color: black;
+    color: #EDF6F9;
 }
 
 .tableColOdd {
@@ -180,13 +180,16 @@ table {}
 	background-color: #83C5BE;
 	border-color: black;
 	border-width: 2px;
-
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .tableColEven {
 	border-style: solid;
 	border-color: black;
 	background-color: #EDF6F9;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .banniere{
@@ -207,6 +210,31 @@ table {}
     margin-top: 85px;
 }
 
-#McSween{
+#McSweenPhoto{
+    margin-top: 20px;
+}
 
+#McSweenTexte{
+    margin-top:40px;
+}
+
+#PaiementPhoto{
+    margin-top: 15px;
+}
+
+#PaiementTexte{
+    margin-top:32px;
+}
+
+.Horaire
+{
+    width: 200px;
+    text-align: left;
+}
+
+.HoraireTable{
+    background-color: #006D77;
+    border-radius: 50px;
+    color: #EDF6F9;
+    padding: 30px;
 }
