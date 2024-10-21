@@ -5,7 +5,6 @@ h1 {
 }
 
 h4 {
-    font-size:px;
     text-align:center;
     font-family: Arial;
 }
@@ -43,6 +42,10 @@ button {
     border-radius: 10px
 }
 
+#PdfButton{
+    height: 55px;
+}
+
 #submitbutton{
     height : 40px;
     width: 175px;
@@ -52,6 +55,15 @@ button {
     background-color:#FFDDD2;
     border-color: #FFDDD2;
 }
+
+.imageAPropos{
+    margin-top: 60px;
+}
+
+#FormulaireCommentaire{
+    margin-top:275px;
+}
+
 
 #resetbutton{
     height : 40px;
@@ -71,7 +83,7 @@ button {
     font-family: Arial;
 }
 
-    #selected {
+#selected {
     color:#83C5BE;
     background-color:#006D77;
     border-style: solid;
@@ -114,11 +126,16 @@ label {
     font-family: Arial;
 }
 
+#bodyContact {
+    background-color: #006D77;
+}
+
 body {
     background-image: url("../../image/background.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 
 #message {
     width: 100%;
