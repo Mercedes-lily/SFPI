@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Valérie">
+		<meta name="description" content="Coordonnées et envoi de commentaire">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<title>Contact</title>
 		<link rel="icon" href="../../icône/question.svg" type="image/icon type">
@@ -74,19 +76,19 @@
 					</div>
 					<div class="col">
 						<form form action="ReceptionCommentaire.html" method="get">
-							<h2>Vous avez des questions ou des commentaires Contacter nous!</h2>
-							<label>Nom:</label>
+							<h2>Vous avez des questions ou des commentaires? Contactez-nous!</h2>
+							<label for="nom">Nom:</label>
 							<input type="text" id="nom" name="nom" placeholder="Tremblay" required><br><br>
-							<label>Prénom:</label>
+							<label for="prenom">Prénom:</label>
 							<input type="text" id="prenom" name="prenom" placeholder="Guy" required><br><br>
-							<label>Sexe:</label>
+							<label for="femme">Sexe:</label>
 							<input type="radio" id="femme" name="sexe" value="Femme" required>
-							<label>Femme</label>
+							<label for="femme">Femme</label>
 							<input type="radio" id="homme" name="sexe" value="Homme">
-							<label>Homme</label>
+							<label for="homme">Homme</label>
 							<input type="radio" id="autre" name="sexe" value="Autre">
-							<label>Autre</label><br><br>
-							<label>Courriel:</label>
+							<label for="autre">Autre</label><br><br>
+							<label for="courriel">Courriel:</label>
 							<input type="email" id="courriel" name="courriel" placeholder="courriel@adresse.com" required><br><br>
 							<textarea name="message" id="message" placeholder="Message" maxlength="500" required> </textarea><br><br>
 							<input id="submitbutton" type="submit" value="Soumettre"></input>

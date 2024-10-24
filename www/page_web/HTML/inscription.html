@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Vincent">
+		<meta name="description" content="Page d'inscription">
 		<link type="text/css" rel="stylesheet" href="../CSS/style.css"/>
 		<link rel="icon" href="../../icône/stylo.svg" type="image/icon type">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -51,15 +53,15 @@
 				<table>
 					<tr>
 						<td>
-							<label>Prénom: </label><input type="text" name="prenom" size="20" maxlength="30" required placeholder="Guy"/><br><br>
+							<label for="prenom">Prénom: </label><input type="text" name="prenom" id="prenom" size="20" maxlength="30" required placeholder="Guy"/><br><br>
 						</td>
 						<td>
-							<label>Nom: </label><input type="text" name="nom" size="20" maxlength="30" required placeholder="Tremblay"/><br><br>
+							<label for="nom">Nom: </label><input type="text" name="nom" id="nom" size="20" maxlength="30" required placeholder="Tremblay"/><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Groupe d'Âge: </label> <select name="age_group" required>
+							<label for="age_group">Groupe d'Âge: </label> <select id="age_group" name="age_group" required>
 								<option value="18">18-24 ans</option>
 								<option value="25">25-34 ans</option>
 								<option value="35">35-44 ans</option>
@@ -71,22 +73,22 @@
 					</tr>
 					<tr>
 						<td>
-							<label>Sexe: </label><input type="radio" name="sexe" value="Femme" required><label>Femme</label>
-							<input type="radio" name="sexe" value="Homme"><label>Homme</label>
-							<input type="radio" name="sexe" value="Autre"><label>Autre</label><br><br>
+							<label for="sexe">Sexe: </label><input type="radio" id="sexe" name="sexe" value="Femme" required><label for="sexe">Femme</label>
+							<input type="radio" id="sexe_m" name="sexe" value="Homme"><label for="sexe_m">Homme</label>
+							<input type="radio" id="sexe_a" name="sexe" value="Autre"><label for="sexe_a">Autre</label><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Adresse: </label><input type="text" name="adresse" size="20" maxlength="100" placeholder="1 rue des Ormeaux" required><br><br>
+							<label for="address">Adresse: </label><input type="text" id="address" name="adresse" size="20" maxlength="100" placeholder="1 rue des Ormeaux" required><br><br>
 						</td>
 						<td>
-							<label>Code postal: </label><input type="text" name="postal_code" size="20" maxlength="7" placeholder="A0B 1C4" required><br><br>
+							<label for="postal">Code postal: </label><input type="text" id="postal" name="postal_code" size="20" maxlength="7" placeholder="A0B 1C4" required><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Courriel: </label> <input type="email" name="courriel" size="20" maxlength="30" placeholder="courriel@adresse.com" required><br><br>
+							<label for="email">Courriel: </label> <input type="email" id="email" name="courriel" size="20" maxlength="30" placeholder="courriel@adresse.com" required><br><br>
 						</td>
 					</tr>
 				</table>
@@ -123,17 +125,17 @@
 				<table>
 					<tr>
 						<td>
-							 <label>Entreprise ou école: </label><input type="text" size="37" maxlength="70" name="workingplace" placeholder="SFPI" required><br><br>
+							 <label for="enterprise">Entreprise ou école: </label><input type="text" id="enterprise" size="37" maxlength="70" name="workingplace" placeholder="SFPI" required><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							 <label>Poste occupé ou niveau d'étude actuel: </label> <input type="text" name="poste" size="20" maxlength="50" placeholder="Comptable" required><br><br>
+							 <label for="job">Poste occupé ou niveau d'étude actuel: </label> <input type="text" id="job" name="poste" size="20" maxlength="50" placeholder="Comptable" required><br><br>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<label>Secteur d'activité ou programme d'étude: </label> <input type="text" name="secteur" size="18" maxlength="50" placeholder="Assurances" required><br><br>
+							<label for="sector">Secteur d'activité ou programme d'étude: </label> <input type="text" id="sector" name="secteur" size="18" maxlength="50" placeholder="Assurances" required><br><br>
 						</td>
 					</tr>
 					<tr>
