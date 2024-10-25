@@ -27,6 +27,12 @@ h3 {
 	font-family: Arial;
 }
 
+legend {
+	font-size: 125%;
+	text-align: center;
+	font-family: Arial;
+}
+
 #tableBillet {
 	background-color: #006D77;
 	border-color: #006D77;
