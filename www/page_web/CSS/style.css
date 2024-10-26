@@ -116,12 +116,26 @@ button {
 	box-shadow: 2px 2px 2px black;
 }
 
-#navbar {
+#navbarhaut {
 	color: #006D77;
 	background-color: #83C5BE;
 	font-size: 20px;
 	text-align: center;
 	font-family: Arial;
+	position:fixed;
+	top : 0px;
+	left: 0px;
+}
+
+#navbarbas {
+	color: #006D77;
+	background-color: #83C5BE;
+	font-size: 20px;
+	text-align: center;
+	font-family: Arial;
+	position:fixed;
+	bottom : 0px;
+	left:0%
 }
 
 #selected {
@@ -175,6 +189,9 @@ body {
 	background-image: url("../../image/background.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:center;
+	margin-top: 51px;
+
 }
 
 
